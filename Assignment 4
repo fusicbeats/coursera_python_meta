@@ -19,9 +19,9 @@ def create_dict(name, age, title):
                title - string)
     """
     employee_dict = {
-        "first_name": name,
-        "age": age,
-        "title": title
+        "first_name": str(name),
+        "age": int(age),
+        "title": str(title)
     }
     return employee_dict
 
