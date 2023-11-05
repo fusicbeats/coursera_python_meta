@@ -1,6 +1,3 @@
-Here's the code with the missing parts filled in:
-
-```python
 # Import ABC and abstractmethod from the module abc (which stands for abstract base classes)
 from abc import ABC, abstractmethod
 
@@ -79,6 +76,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-This code defines a `Bank` class as an abstract base class (ABC) with a `basicinfo` method and an abstract `withdraw` method. It also defines a `Swiss` class that derives from `Bank` and implements the required functionality for both methods. The `main` function tests the code by creating an instance of the `Swiss` class and calling its methods.
